@@ -269,7 +269,7 @@ footer p{
         width: 100%;   
     }
     h3{
-        font-size:1.9em;
+        font-size:1.8em;
         line-height: 37px;
     }
     .productshop h3{
@@ -343,8 +343,9 @@ footer p{
         padding:0 10px 10px 10px;
     }
     .caseblog .holder .date{
-        margin-left:20px ;
+        margin: 5px 0 10px 20px;
     }
+
              
     /*blogs close*/
 
@@ -372,7 +373,7 @@ footer p{
         font-family: 'Tajawal', sans-serif;
         font-size: 1.13em;
         font-style:300;
-        /* padding-top: 10px; */
+
     }
     .aboutme h1{
         text-align: left;
@@ -384,9 +385,9 @@ footer p{
         font-size: 1.5em;
     }
     .centerspan {
-        width: 60%;
         margin: 16px auto;
         text-align: center;
+        padding-right: 20px;
     }
 
 /*about close*/
@@ -526,7 +527,7 @@ main .news h2{
     text-transform: capitalize;
 }
 main .news h4{
-    width: 50%;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
     padding-top: 10px;
@@ -745,7 +746,7 @@ button:hover{
 .comment h4{
     padding:0;
     text-align: left;
-    font-weight: 400;
+    font-weight: 400; 
 }
 .comment h5{
     margin:0;
@@ -808,6 +809,9 @@ button:hover{
     nav ul li a{
         padding: 0 10px;
     }
+    .slider .title{
+        left: 30%; 
+    }
     .productshop{
         height: 350px;   
         margin: 0 10px;
@@ -820,18 +824,20 @@ button:hover{
     }
 
     .aboutme{
-        width: 65%;
+        /* width: 65%; */
         padding-left: 5px;
     }
     .aboutme p{
         font-size: 1em;
         padding-right: 20px;
+
     }
     .about .imageabout{
         width: 35%;
     }
-    q { 
-        font-size: 1.2em;
+    .centerspan{
+        text-align: center;
+        width: none;
     }
     .about{
         padding-bottom:20px ;
@@ -854,7 +860,6 @@ button:hover{
     .logoheader{
         width: 100%;
         text-align: center;
-        /* background-color: green; */
      }
      .logoheader a img{
          padding-top: 5px;
