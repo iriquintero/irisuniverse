@@ -900,24 +900,53 @@ button:hover{
     
     h2{
         padding-top: 20px;
+        font-size: 1.8em;
+    }
+    h1{
+        font-size: 1.8em;
     }
 
     .caseblog .holder h3{
         margin-top:10px;
+        font-size: 1.6em;
     }
     .case img{
         width: 280px;
         height: 280px; 
-        float: left;
     }
-    .case .info{
-        width: 50% ;
+    .aboutme p {
+        margin-right: 20px;
     }
+    .contacts h3{ 
+        margin-left:0;
+    }
+    .contacts ul li.button{
+        text-decoration:none;
+        color:black;
+        font-size: 2em;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .contacts ul{ 
+        padding-left: 0;
+    }
+ 
+    .contacts ul li span{ 
+        font-size:0.7em;
+    }
+    .contacts.left{ 
+        width:45%;
+        padding-right: 10px;
+    }
+    .contacts.right{ 
+        width: 55%;
+    }
+    .about.news h4{
+        width: 70%;
+        font-size: 1.3em;
+    }
+    
 
-    .centerspan q{
-        display:none;
-    }
-  /*terminar y modificar para que se vea el texto alrededor de la imagen.*/
 }
 
 @media screen and (max-width: 576px){
