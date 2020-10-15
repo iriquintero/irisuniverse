@@ -454,6 +454,7 @@ main .contact{
     display:block;
     width:100%;
     font-size:1.25em;
+    margin-top: 5px;
 }
 .formcontact .border input, .formcontact .border textarea{ 
     width:95%;
@@ -836,11 +837,6 @@ button:hover{
         font-size: 1em;
         margin-right: 40px;
     }
-    .about .aboutme img{
-        width: 45%;
-        padding-left: 10px;
-    }
-    
     .centerspan{
         text-align: center;
         width: none;
@@ -1207,7 +1203,7 @@ button:hover{
         margin-bottom: 30px;
     }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
 
     .logoheader{
         width: 100%;
@@ -1217,17 +1213,8 @@ button:hover{
      .social-bar{
          display: none;
     }
-
     .slider .title{
-        top: 40%;
-        left: 20%;
-        width:200px;
-        height: 35px;
-    }
-    .slider .title a {
-        font-size: 1.2em;
-        padding-top: 9px;
-        margin-left:15px;
+        display: none;
     }
     .product{
         padding: 40px 0;
@@ -1277,7 +1264,6 @@ button:hover{
     .caseblog .holder{
         padding-bottom: 30px;
     }
-
     .case img{
         width: 100%;
         height:100%;
@@ -1293,5 +1279,108 @@ button:hover{
     }
     .caseblog .holder .date{
         margin: 5px 0 10px 20px;
+    }
+    .about .aboutme img{
+        width: 100%;
+        padding-left:10px;
+        margin-bottom: 20px;
+    }
+    .aboutme h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .aboutme p{
+        margin:10px 0;
+    }
+    .aboutme .centerspan q { 
+        font-family: 'caviar_dreamsregular';
+        font-size: 1.5em;
+    }
+    .centerspan {
+        margin: 16px auto;
+        text-align: center;
+        padding-right: 20px;
+    }
+    .contacts ul li.button{
+        font-size: 1.8em;
+    }
+    .contacts ul{ 
+        padding-left: 0;
+
+    }
+    .contacts ul li span{ 
+        font-size:0.6em;
+    }
+    .about.news h4{
+        width: 90%;
+        font-size: 1em;
+    }
+    .contact .news h4{
+        width: 90%;
+        font-size: 1em;
+    }
+    .newsletter{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+    .newsletter input, .newsletter textarea{
+        width: 90%;
+        font-size: 1.25em;
+        margin: 5px;
+    }
+    input[type="submit"]{
+        width: 150px;
+        height: 40px; 
+    }
+    h2{
+        padding-top: 20px;
+        font-size: 1.4em;
+    }
+    h1{
+        font-size: 1.4em;
+    }
+    .images .item{
+        width: calc(100% - 25px);
+    }
+    .imagesproducts .imageshop{
+        
+        justify-content: space-evenly;
+        margin: 5px;
+        width: 20%;
+        border-radius: 5px;
+    }
+    .recentpost h3, .newsblog h3{
+        font-size: 1.5em;
+    }
+    .recentpost h4{
+        font-size: 1.1em;
+    }
+    .formcomment h3 , .comments h3{
+        font-size: 1.5em;
+    }
+    .newsblog .newsletter{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 40px 0;
+    }
+    .newsblog .newsletter{
+        padding:0;
+    }
+    .newsblog .newsletter input{
+        width: 100%;
+    }
+    .redes .button{
+        font-size: 1.65em;
+    }
+    .bordername, .borderemail{
+        width: 100%;
+    }
+    .typetext{
+        flex-direction:column;
     }
 }
