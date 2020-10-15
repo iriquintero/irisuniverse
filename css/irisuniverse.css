@@ -664,6 +664,7 @@ button:hover{
     'formcomment formcomment formcomment formcomment other other';
     gap: 10px;
     grid-template-rows: auto;
+    padding-left: 10px;
 }
 
 .content{
@@ -829,7 +830,7 @@ button:hover{
     }
 
     .aboutme{
-        padding-left: 5px;
+        padding-left: 10px;
     }
     .aboutme p{
         font-size: 1em;
@@ -1066,7 +1067,6 @@ button:hover{
     }
     .logoheader{
         width: 100%;
-        float: left;
         text-align: left;
         margin-left: 20px;
         /* background-color: green; */
@@ -1200,11 +1200,98 @@ button:hover{
         font-size: 1.2em;
     }
     .images .item{
-        
+
         width: calc(50% - 25px);
     }
     .formcontact .sending{ 
         margin-bottom: 30px;
     }
-    
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .logoheader{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+     }
+     .social-bar{
+         display: none;
+    }
+
+    .slider .title{
+        top: 40%;
+        left: 20%;
+        width:200px;
+        height: 35px;
+    }
+    .slider .title a {
+        font-size: 1.2em;
+        padding-top: 9px;
+        margin-left:15px;
+    }
+    .product{
+        padding: 40px 0;
+    }
+    .productshop{
+        width:80%;
+        height:auto;
+        border-radius:10px; 
+        margin-bottom: 20px;  
+    }
+    .productshop figure{
+        margin:10px;
+    }
+    h3{
+        font-size:1.6em;
+    }
+    .productshop h3{
+        margin-left:20px;
+    }
+    h4{
+        font-size: 1.3em;
+        padding-bottom: 20px;
+    }
+    .products .product .productshop h4{
+        margin-left: 20px;
+    }
+    .product .productshop .box a{
+        width: 80%;
+        height: 380px; 
+    }
+    .products .productshop .box:hover a{
+        background-color:transparent;
+        color:transparent;   
+    }
+    main .caseblog{ 
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .caseblog .holder h2{
+        text-transform: none;
+    }
+    .caseblog h3{
+        margin:0;
+        padding: 0 20px;
+    }
+    .caseblog .holder{
+        padding-bottom: 30px;
+    }
+
+    .case img{
+        width: 100%;
+        height:100%;
+        margin: 0;
+        float: none;  
+    }
+    .case p{
+        font-family: 'Tajawal', sans-serif;
+        height: 90%;
+        margin:0;
+        box-sizing: border-box;
+        padding:15px 15px 10px 15px;
+    }
+    .caseblog .holder .date{
+        margin: 5px 0 10px 20px;
+    }
 }
