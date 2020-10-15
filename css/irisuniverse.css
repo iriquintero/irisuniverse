@@ -119,6 +119,11 @@ footer{
 .redes{
     margin:0 auto;
 }
+p{
+    font-family: 'Tajawal', sans-serif;
+    font-style: 300;
+    font-size: 1em;
+}
 footer p{
     font-family: 'Tajawal', sans-serif;
     font-style: 300;
@@ -958,8 +963,6 @@ button:hover{
         'other other other other other other ';
         padding: 10px;
     }
-
-    
     .content{
         padding-right:0;
         border-right:none;
@@ -984,9 +987,6 @@ button:hover{
     .recentpost h4{
         font-size: 1.3em;
     }
-    .comments{
-        grid-area:comments;
-    }
     .comment h4{
         padding:0;
         text-align: left;
@@ -996,7 +996,6 @@ button:hover{
         margin:0;
     }
     .formcomment{
-        grid-area:formcomment;
         padding-bottom: 10px;
     }
     .formcomment h3 , .comments h3{
@@ -1009,7 +1008,6 @@ button:hover{
     .newsblog h3{
         margin-top:40px;
     }
-   
     .newsblog .newsletter input{
         display: block;
         width: 100%;
@@ -1037,7 +1035,6 @@ button:hover{
         font-weight: bold;
         font-size: 1.25em;
     }
-    
     .newsblog input[type="submit"]{
         background-color: black;
         width: 150px;
@@ -1059,9 +1056,155 @@ button:hover{
     .newsblog .newsletter input:focus{ 
         background-color:#faf4f4;
     }
-
 }
 
 @media screen and (max-width: 576px){
-
+    header{
+        width: 100%;
+        float:none;
+        position: static;
+    }
+    .logoheader{
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-left: 20px;
+        /* background-color: green; */
+     }
+     
+    nav {
+        width: 100%;
+        float: none;
+        text-align: center; 
+    }
+    nav ul{
+        padding-bottom: 0px;
+    }
+    nav ul li{
+        display:block;
+        padding: 5px;
+        /* border-bottom: 1px solid black; */
+    }
+    .social-bar{
+        top:1.5%;
+        flex-direction: row;
+        margin-right: 20px;
+        align-items: center;
+    }
+    .social-bar .button{
+        padding:5px;
+        font-size: 1.5em;
+        background-color: transparent;
+    }
+    .social-bar .button:hover{
+        padding-right:0;
+        box-shadow: none;
+        transition: all 0s ;
+        border-top-left-radius: 0;
+        border-bottom-left-radius:0;
+    }
+    main{
+        padding-top:0px;
+        /* background-color: blue; */
+    }
+    .slider{
+        position: relative;
+    }
+    .slider ul{
+        display:flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite;
+    }
+    .slider li{
+        width: 100%;
+        list-style: none;
+    }
+    .slider img{
+        width: 100%;
+        position: relative;
+    }
+    .slider .title{
+        top: 45%;
+        left: 25%;
+        width:300px;
+        height: 50px;
+    }
+    .slider .title a {
+        font-size: 1.8em;
+        float:none;
+        position: absolute;
+        padding-top: 15px;
+        margin-left:25px;
+    }
+    .product{
+        padding: 40px 0;
+    }
+    .productshop{
+        width:70%;
+        height: 480px;
+        border-radius:10px; 
+        margin-bottom: 20px;  
+    }
+    .productshop figure{
+        margin:20px;
+    }
+    h3{
+        font-size:1.6em;
+    }
+    .productshop h3{
+        margin-left:20px;
+    }
+    h4{
+        font-size: 1.3em;
+        padding-bottom: 20px;
+    }
+    .products .product .productshop h4{
+        margin-left: 20px;
+    }
+    .product .productshop .box a{
+        width: 70%;
+        height: 480px;
+        margin-bottom: 20px;  
+    }
+    .contacts h3{ 
+        margin-top: 0;
+    }
+    .contacts ul li.button{
+        font-size: 2em;
+        padding-bottom: 20px;
+    }
+    .contacts ul{ 
+        padding-left: 0;
+        border-bottom: 2px solid lightgray;
+    }
+    .contacts ul li span{ 
+        font-size:0.7em;
+    }
+    .contacts.left{ 
+        width:100%;
+        padding-right: 30px;
+        border-right: 0;
+        padding-left: 30px;
+    }
+    .contacts.right{ 
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about.news h4{
+        width: 80%;
+        font-size: 1.2em;
+    }
+    .contact .news h4{
+        width: 80%;
+        font-size: 1.2em;
+    }
+    .images .item{
+        
+        width: calc(50% - 25px);
+    }
+    .formcontact .sending{ 
+        margin-bottom: 30px;
+    }
+    
 }
