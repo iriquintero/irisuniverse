@@ -918,6 +918,14 @@ button:hover{
     }
     .aboutme p {
         margin-right: 20px;
+        margin-left:0;
+        padding-left: 0;
+    }
+    .aboutme .centerspan q{
+        display:none;
+    }
+    .aboutme img{
+        padding-bottom: 5px;
     }
     .contacts h3{ 
         margin-left:0;
