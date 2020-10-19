@@ -833,9 +833,13 @@ button:hover{
     .aboutme{
         padding-left: 10px;
     }
+    .aboutme img{
+        margin-bottom: 5px;
+    }
     .aboutme p{
         font-size: 1em;
         margin-right: 40px;
+        padding-left: 0;
     }
     .centerspan{
         text-align: center;
