@@ -59,19 +59,19 @@
                         <form name="contact" action="" method="get" target="_blank" class="formcontact">
                             <section class="border name">
                                 <label for="yourname">Your name</label>
-                                <input type="text" name="yourname" id="yourname"/>
+                                <input type="text" name="yourname" id="yourname" required/>
                             </section>
                             <section class="border email">
                                 <label for="e-mail">E-mail</label>
-                                <input type="text" name="e-mail" id="e-mail"/>
+                                <input type="text" name="e-mail" id="e-mail" required/>
                             </section>
                             <section class="border phone">
                                 <label for="yourphone">Phone</label>
-                                <input type="text" name="yourphone" id="yourphone"/>
+                                <input type="text" name="yourphone" id="yourphone" required/>
                             </section>
                             <section class="border message">
                                 <label for="yourmessage">Message</label>
-                                <textarea name="yourmessage" id="yourmessage"></textarea>
+                                <textarea name="yourmessage" id="yourmessage" required></textarea>
                             </section>
                             <section class="sending">
                                 <input type="submit" value="send"/>
@@ -86,7 +86,7 @@
                 <h4>Sign up to our newsletter and be the first to know about my latest news,
                     special offers, events, and discounts.</h3>
                     <form name="newslatter" action="" method="get" target="_blank" class="newsletter">
-                        <input type="text" value="E-mail">
+                        <input type="text" placeholder="E-mail" required>
                         <input type="submit" value="subscribe">
                     </form>
             </div>
