@@ -11,9 +11,11 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
     <title>Iri's Universe</title>
+    <link rel="stylesheet" href="css/aos.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/irisuniverse.css">
+   
 </head>
 <body>
     <header>
@@ -42,7 +44,8 @@
         </div>
     </aside>
     <main>
-        <div class="slider holder">
+        <div class="slider holder" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <ul>
                 <li><img src="./img/home-pattern/portada/imagen-1.jpg" alt="Patterns"></li>
                 <li><img src="./img/home-pattern/portada/imagen-2.jpg" alt="Patterns"></li>
@@ -53,7 +56,8 @@
                 <a href="gallery.html">Patterns/Illustrations</a>
             </div>
         </div>
-        <div class="products holder">
+        <div class="products holder" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <h2>Products</h2>
             <div class="product">
                 <div class="productshop">
@@ -86,7 +90,8 @@
                 </div>
             </div>
         </div>
-        <div class="caseblog">
+        <div class="caseblog" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <div class="holder">
                 <h2>Laste From Blog</h2>
                 <h3>Vestibulum diam enim</h3>
@@ -98,7 +103,8 @@
             </div>
         </div>
     </main>
-    <footer>
+    <footer data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <div class="redes">
             <a class="button flaticon-facebook" href="https://www.facebook.com/irisuniverse1" target="_blank"></a>
             <a class="button flaticon-instagram"href="https://www.instagram.com/irisuniverse1/" target="_blank"></a>
@@ -108,5 +114,9 @@
         <a href="index.html"><img src="./img/logo/logoirisuniverse.png" width="150" alt="logo"></a>
         <p>Made with love in Argentina &copy;Iriangel Quintero 2020.</p>
     </footer>
+    <script src="js/aos.js"></script>
+    <script> 
+    AOS . init ( ) ; 
+    </script>
 </body>
 </html>

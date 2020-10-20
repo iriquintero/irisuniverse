@@ -11,6 +11,7 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
     <title>Gallery/Iri's Universe</title>
+    <link rel="stylesheet" href="css/aos.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/irisuniverse.css">
@@ -41,7 +42,8 @@
             <a class="button flaticon-pinterest-social-logo"href="https://ar.pinterest.com/irisuniverse1" target="_blank"></a>
         </div>
     </aside>
-    <main class="holder gallery">
+    <main class="holder gallery" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <h1>Gallery</h1>
         <div class="categories" id="categories">
             <a class="activo" href="#">All</a>
@@ -132,7 +134,8 @@
         </div>
         <button>Show more</button>
     </main>
-    <footer>
+    <footer data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
         <div class="redes">
             <a class="button flaticon-facebook" href="https://www.facebook.com/irisuniverse1" target="_blank"></a>
             <a class="button flaticon-instagram"href="https://www.instagram.com/irisuniverse1/" target="_blank"></a>
@@ -142,6 +145,10 @@
         <a href="index.html"><img src="./img/logo/logoirisuniverse.png" width="150" alt="logo"></a>
         <p>Made with love in Argentina &copy;Iriangel Quintero 2020.</p>
     </footer>
+    <script src="js/aos.js"></script>
+    <script> 
+    AOS . init ( ) ; 
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
     <script src="js/main.js"></script>
