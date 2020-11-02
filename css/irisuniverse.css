@@ -34,7 +34,7 @@ header{
     float: right;
     box-shadow: 1px 6px 25px 1px rgba(0,0,0,0.15);
     position: fixed;
-    z-index: 100;
+    z-index: 1003;
 }
 
 .logoheader{
@@ -181,52 +181,24 @@ footer p{
         padding-top: 100px;
         /* background-color: blue; */
     }
-    .slider{
-        position: relative;
-    }
-    .slider ul{
-        display:flex;
-        padding: 0;
-        width: 400%;
-        animation: cambio 20s infinite;
-    }
-    .slider li{
-        width: 100%;
-        list-style: none;
-    }
     .slider img{
-        width: 100%;
+        max-width: 100%;
         position: relative;
     }
-    @keyframes cambio{
-        0% { margin-left: 0;}
-        20% { margin-left: 0;}
-        25% { margin-left: -100%;}
-        45% { margin-left: -100%;}
-        50% { margin-left: -200%;}
-        70% { margin-left: -200%;}
-        75% { margin-left: -300%;}
-        100% { margin-left:-300%;}
-    }
-    .slider .title{
+    .cycle-overlay { 
+        font-family: 'caviar_dreamsregular';
         position: absolute;
-        background-color: #fff;
-        top: 45%;
-        left: 33%;
-        width:400px;
-        height: 70px;
-        box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.5);
-        box-sizing: border-box;
-    }
-    .slider .title a {
-        color: #000;
+        bottom:40%;
+        right: 33%;;
+        z-index: 600;
+        background:white; 
+        color:black; 
+        padding: 20px; 
+        text-align: center;
         font-size: 2.19em;
-        text-decoration: none;
-        float:left;
-        padding-top: 25px;
-        margin-left:45px;
+        box-shadow: 0px 0px 23px -4px rgba(0,0,0,0.5);
     }
-
+ 
     /* patterns close*/
 
     /* products stard*/
