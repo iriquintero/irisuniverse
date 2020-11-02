@@ -44,20 +44,21 @@
         </div>
     </aside>
     <main>
-        <div class="slider holder" data-aos="fade-up"
+        <div class="cycle-slideshow slider holder" 
+        data-cycle-fx="scrollHorz"
+        data-cycle-timeout="2000" data-aos="fade-up"
         data-aos-anchor-placement="top-bottom">
-            <ul>
-                <li><img src="./img/home-pattern/portada/imagen-1.jpg" alt="Patterns"></li>
-                <li><img src="./img/home-pattern/portada/imagen-2.jpg" alt="Patterns"></li>
-                <li><img src="./img/home-pattern/portada/imagen-3.jpg" alt="Patterns"></li>
-                <li><img src="./img/home-pattern/portada/imagen-4.jpg" alt="Patterns"></li>
-            </ul>
-            <div class="title">
-                <a href="gallery.html">Patterns/Illustrations</a>
-            </div>
+            <div class="cycle-overlay"></div>
+                <img src="./img/home-pattern/portada/imagen-1.jpg" alt="Patterns"
+                 data-cycle-title="Patterns/Illustartions"  data-cycle-desc ="" >
+                <img src="./img/home-pattern/portada/imagen-2.jpg" alt="Patterns"
+                data-cycle-title="Patterns/Illustartions" data-cycle-desc ="">
+                <img src="./img/home-pattern/portada/imagen-3.jpg" alt="Patterns"
+                data-cycle-title="Patterns/Illustartions" data-cycle-desc ="">
+                <img src="./img/home-pattern/portada/imagen-4.jpg" alt="Patterns"
+                data-cycle-title="Patterns/Illustartions"data-cycle-desc ="" >
         </div>
-        <div class="products holder" data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom">
+        <div class="products holder">
             <h2>Products</h2>
             <div class="product">
                 <div class="productshop">
@@ -90,8 +91,7 @@
                 </div>
             </div>
         </div>
-        <div class="caseblog" data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom">
+        <div class="caseblog">
             <div class="holder">
                 <h2>Laste From Blog</h2>
                 <h3>Vestibulum diam enim</h3>
@@ -103,8 +103,7 @@
             </div>
         </div>
     </main>
-    <footer data-aos="fade-up"
-    data-aos-anchor-placement="top-bottom">
+    <footer>
         <div class="redes">
             <a class="button flaticon-facebook" href="https://www.facebook.com/irisuniverse1" target="_blank"></a>
             <a class="button flaticon-instagram"href="https://www.instagram.com/irisuniverse1/" target="_blank"></a>
@@ -116,7 +115,9 @@
     </footer>
     <script src="js/aos.js"></script>
     <script> 
-    AOS . init ( ) ; 
+    AOS.init(); 
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
 </body>
 </html>
