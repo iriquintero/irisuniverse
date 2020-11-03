@@ -595,7 +595,7 @@ main .holder .change{
      max-width: 100%;
      border-radius: 10px;
  }
- .overlay .descripcion {
+ .overlay .description {
      display: block;
      background-color: white;
      padding: 15px;
@@ -603,7 +603,19 @@ main .holder .change{
      margin-top: 5px;
      border-radius: 10px;
      max-width: 50%;
-
+ }
+ 
+ .overlay #btn-close-popup{
+    cursor:pointer;
+    color:white;
+    background: none;
+    font-size: 30px;
+    position: absolute;
+    right: -35px;
+    top:-35px;
+ }
+ .contenedor-img{
+     position: relative;
  }
 
 button{
