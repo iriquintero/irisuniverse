@@ -1345,6 +1345,10 @@ button:hover{
         width: 150px;
         height: 40px; 
     }
+    .overlay #btn-close-popup{
+        font-size: 25px;
+        right: 0px;
+     }
     h2{
         padding-top: 20px;
         font-size: 1.4em;
