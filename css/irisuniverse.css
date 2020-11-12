@@ -1227,7 +1227,8 @@ button:hover{
     }
 
     .slider img{
-        max-width: 200%;
+        min-height: 100vh;
+        max-width:200%;
     }
     .cycle-overlay { 
         width: 100%;
