@@ -1,11 +1,12 @@
-//start muuri
-const grid = new Muuri('.images', {
+
+//iniciar muuri
+var grid = new Muuri('.images', {
     layout: {
         rounding: false
-      }
+      },
 });
 
-
+//galería
 window.addEventListener('load',() => {
     grid.refreshItems().layout();
     document.getElementById('images').classList.add('image-loaded');
@@ -44,3 +45,6 @@ window.addEventListener('load',() => {
         evento.target.id === 'overlay'? overlay.classList.remove('activo') : '';
     });
 });
+
+
+

@@ -22,6 +22,7 @@
   }
  /*icons */
 
+
 body{
     font-family: 'caviar_dreamsregular';
     font-size: 16px;
@@ -31,11 +32,23 @@ body{
 header{
     background-color:#fff;
     width: 100%;
-    float: right;
+    top:0;
+    /* float: right; */
     box-shadow: 1px 6px 25px 1px rgba(0,0,0,0.15);
     position: fixed;
     z-index: 1000;
+    
 }
+/*efectos de menú*/
+.headroom{
+    transition: transform .3s ease;
+  }
+  .headroom--pinned{
+    transform: translateY(0%);
+  }
+  .headroom--unpinned{
+    transform: translateY(-100%);
+  }
 
 .logoheader{
    width: 30%;
@@ -189,7 +202,7 @@ footer p{
         font-family: 'caviar_dreamsregular';
         position: absolute;
         bottom:40%;
-        right: 33%;;
+        right: 35%;;
         z-index: 600;
         background:white; 
         color:black; 
