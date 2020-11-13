@@ -1,2 +1,9 @@
 # irisuniverse
-Iri´s Universe website-final project of UTN.BA Faculta regional Buenos Aires.
+First part of the Iri's Universe website for the UTN.BA project
+
+-HTML
+-CSS
+-JAVASCRIPT
+-JQUERY
+
+
