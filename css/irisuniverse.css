@@ -1087,7 +1087,7 @@ button:hover{
         position: absolute;
         right: 0;
         height: 92vh;
-        top:15vh;
+        top:8vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1149,7 +1149,7 @@ button:hover{
         border-bottom-left-radius:0;
     }
     .slider img{
-        min-height: 100vh;
+        min-height: 50%;
         max-width:200%;
     } 
     main{
@@ -1239,7 +1239,7 @@ button:hover{
     }
 
     .slider img{
-        min-height: 100vh;
+        min-height: 50%;
         max-width:200%;
     }
     .cycle-overlay { 
