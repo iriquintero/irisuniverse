@@ -1086,7 +1086,7 @@ button:hover{
     .nav-links{
         position: absolute;
         right: 0;
-        height: 92vh;
+        height: 80vh;
         top:8vh;
         display: flex;
         flex-direction: column;
@@ -1146,7 +1146,7 @@ button:hover{
         border-bottom-left-radius:0;
     }
     .slider img{
-        min-height: 100vh;
+        min-height: 80vh;
         max-width:200vw;
     } 
     main{
