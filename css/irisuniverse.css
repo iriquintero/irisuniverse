@@ -1235,7 +1235,7 @@ button:hover{
          display: none;
     }
     .slider img{
-        min-height: 100vh;
+        min-height: 80vh;
         max-width:200vw;
     }
     .cycle-overlay { 
