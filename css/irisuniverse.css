@@ -45,7 +45,7 @@ header{
     transform: translateY(0%);
   }
   .headroom--unpinned{
-    transform: translateY(-100%);
+    transform: translateY(-110%);
   }
 nav {
     display:flex;
@@ -1085,16 +1085,19 @@ button:hover{
     .nav-links{
         position: absolute;
         right: 0;
-        height: 85vh;
+        height:50vh;
         top:7.9vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
+        align-items:center;
+        width: 50vw;
         background-color: white;
-        transform:translate(100%);
+        transform:translate(110%);
         transition: transform 0.5s ease-in;
         padding:20px;
+        -webkit-box-shadow: 0px 28px 39px -17px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 28px 39px -17px rgba(0,0,0,0.57);
+        box-shadow: 0px 28px 39px -17px rgba(0,0,0,0.57);
         
     }
     .nav-links li{
@@ -1120,13 +1123,13 @@ button:hover{
         }
     }
     .toggle .line1{
-        transform: rotate(-45deg) translate(-6px, 6px);
+        transform: rotate(-45deg) translate(-5px, 6px);
     }
     .toggle .line2{
         opacity:0;
     }
     .toggle .line3{
-        transform: rotate(45deg) translate(-6px, -6px);
+        transform: rotate(45deg) translate(-5px, -6px);
     }       
     .social-bar{
         top:1.5%;
@@ -1151,7 +1154,7 @@ button:hover{
         max-width:200vw;
     } 
     main{
-        padding-top:90px;
+        padding-top:80px;
     }
     .cycle-overlay { 
         bottom:42%;
@@ -1231,7 +1234,9 @@ button:hover{
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
-   
+    main{
+        padding-top:70px;
+    }
     .social-bar{
          display: none;
     }
